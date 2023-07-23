@@ -1,7 +1,5 @@
 import React from 'react';
 import './FloatingDiv.css';
-import { useContext } from 'react';
-import { themeContext } from '../../Context';
 
 function FloatingDiv({image, txt1, txt2}) {
   return (
